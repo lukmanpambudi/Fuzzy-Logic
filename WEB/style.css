@@ -1,0 +1,64 @@
+* {
+ font-family: 'ubuntu', sans-serif;
+ padding: 0;
+ margin: 0;
+}
+
+.container {
+ display: flex;
+ min-height: 100vh;
+}
+
+.sidebar {
+ background-color: aliceblue;
+ width: 260px;
+ padding: 24px;
+ display: flex;
+ box-sizing: border-box;
+ flex-direction: column;
+}
+
+.main-content {
+ background-image: url("Vector1.png");
+ flex-grow: 1;
+ background-size: cover;
+}
+
+.sidebar .description-header {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 16px;
+ text-align: center;
+ color: aliceblue;
+}
+
+.sidebar .main .list-item .description {
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 16px;
+ text-align: center;
+ color: darkblue;
+ font
+}
+
+.sidebar .main .list-item .icon {
+ margin-right: 12px;
+}
+
+.sidebar .main .list-item {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 12px 10px;
+ border-radius: 8px;
+ width: 212px;
+ box-sizing: border-box;
+ transition: all ease-in .2s;
+}
+
+.sidebar .main .list-item:hover {
+ background: orange;
+ transition: all ease-in .2s;
+}
